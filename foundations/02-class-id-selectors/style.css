@@ -1,0 +1,20 @@
+.cool-ps {
+  background-color: #F3ABA9;
+  font-family: Verdana, sans-serif;
+}
+
+#first-even {
+  color: #1000F5;
+  /* color: #0000ff; */
+  font-size: 36px;
+}
+
+#second-even {
+  background-color: #A1FC8F;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cooler-ps {
+  font-size: 24px;
+}
