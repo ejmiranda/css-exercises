@@ -2,6 +2,8 @@
 
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -60,10 +62,38 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  width: 95px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  width: 95px;
+}
+
+/* Solution */
+
+.modal {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.text {
+  margin: 10px 0 15px 0;
 }
